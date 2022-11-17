@@ -1,0 +1,15 @@
+Bug report:
+  Title: There is an endless loading on login page after pressing the Login button
+  Environment: Win10 x64 Firefox 103.0.2
+  Precondition": Go on the website test.com
+  Description: 
+    Steps to reproduce:
+      1. Go to the login page
+      2. Enter login and password
+      3. Press the Login button
+    Actual Result: Infinite loading in progress
+    Expected result: If the data is entered correctly - go to the personal account, if the data is entered incorrectly, the error Invalid data
+  Build version: 1.0
+  Severity: Blocker
+  Priority : ASAP
+  Status : New
