@@ -1,0 +1,6 @@
+Сhecklist structure:
+	Id: unique number
+	Title
+	ER
+	Result: passed/failed/blocked/skipped
+	Comment: if needed
