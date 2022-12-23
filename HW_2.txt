@@ -1,0 +1,71 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing
+git branch Postman
+git branch Jmeter
+git branch CheckLists
+git branch Bag-Reports
+git branch SQL
+git branch Charles
+git branch Mobile-testing
+
+2. Запушить все ветки на внешний репозиторий
+git push -u origin --all
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+git checkout Bag-Reports
+cat >> Bag_Report.txt
+Bug report:
+  Title: There is an endless loading on login page after pressing the Login button
+  Environment: Win10 x64 Firefox 103.0.2
+  Precondition": Go on the website test.com
+  Description: 
+    Steps to reproduce:
+      1. Go to the login page
+      2. Enter login and password
+      3. Press the Login button
+    Actual Result: Infinite loading in progress
+    Expected result: If the data is entered correctly - go to the personal account, if the data is entered incorrectly, the error Invalid data
+  Build version: 1.0
+  Severity: Blocker
+  Priority : ASAP
+  Status : New
+  Attachment: no
+Ctrl + C
+
+4. Запушить структуру багрепорта на внешний репозиторий
+git add .
+git commit -m "added Bag_Report.txt to Bag-Reports"
+git push
+
+5. Вмержить ветку Bag Reports в Main
+git checkout main
+git merge Bag-Report
+
+6. Запушить main на внешний репозиторий.
+git push -u origin main
+
+7. В ветке CheckLists набросать структуру чек листа.
+git checkout CheckLists
+cat >> CheckList.txt
+Сhecklist structure:
+	Id: unique number
+	Title
+	ER
+	Result: passed/failed/blocked/skipped
+	Comment: if needed
+Ctrl + C
+
+8. Запушить структуру на внешний репозиторий
+git add . && git commit -m "added CheckList.txt to CheckLists" && git push
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main
+git checkout main
+git pull
