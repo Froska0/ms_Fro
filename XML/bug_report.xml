@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<bug_report>
+  <Title>There is an endless loading on login page after pressing the Login button</Title>
+  <Environment>Win10 x64 Firefox 103.0.2</Environment>
+  <Precondition>Go on the website test.com</Precondition>
+  <Description> 
+    <Steps_to_reproduce>
+      <step_1>Go to the login page</step_1>
+      <step_2>Enter login and password</step_2>
+      <step_3>Press the Login button</step_3>
+    </Steps_to_reproduce>
+    <Actual_Result>Infinite loading in progress</Actual_Result>
+    <Expected_result>If the data is entered correctly - go to the personal account, if the data is entered incorrectly, the error Invalid data</Expected_result>
+  </Description>
+  <Build_version>1.0</Build_version>
+  <Severity>Blocker</Severity>
+  <Priority>ASAP</Priority>
+  <Status>New</Status>
+  <Attachment>no</Attachment>
+</bug_report>

@@ -1,0 +1,6 @@
+About me:
+	favorite movie: don't have,
+	favorite series: don't have,
+	favorite food: meat,	
+	favorite season: summer,
+	country to visit: Japan
