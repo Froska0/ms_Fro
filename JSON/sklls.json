@@ -1,0 +1,21 @@
+{
+	"skill_1": "Basic theory",
+	"skill_2": "Client-server architecture",
+	"skill_3": "API testing via Postman",	
+	"skill_4": "Sniffing http web traffic",
+	"skill_5": "Removing and reading logs from an external server",
+	"skill_6": "VPN",
+	"skill_7": "Mobile testing",
+	"skill_8": "Feature iOS, Android, guidelines",
+	"skill_9": "Building Android applications on Android Studio",
+	"skill_10": "Android device management",
+	"skill_11": "Command line (terminal) Linux",
+	"skill_12": "Basic bash scripting",
+	"skill_13": "Access to remote servers",
+	"skill_14": "SQL basics",
+	"skill_15": "Postgres database",
+	"skill_16": "Non-relational database Redis",
+	"skill_17": "Load testing in Jmeter",
+	"skill_18": "Scrum development methodology",
+	"skill_19": "Python basics"	
+}
